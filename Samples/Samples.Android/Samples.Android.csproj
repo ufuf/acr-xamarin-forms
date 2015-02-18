@@ -98,22 +98,6 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Acr.XamForms.BarCodeScanner.Droid\Acr.XamForms.BarCodeScanner.Droid.csproj">
-      <Project>{0EF6C543-9A82-4A29-A251-4D0A900232DD}</Project>
-      <Name>Acr.XamForms.BarCodeScanner.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.BarCodeScanner\Acr.XamForms.BarCodeScanner.csproj">
-      <Project>{1ED7E825-98ED-4740-8DD7-96E4AA3F1128}</Project>
-      <Name>Acr.XamForms.BarCodeScanner</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.Mobile.Droid\Acr.XamForms.Mobile.Droid.csproj">
-      <Project>{07658008-EB02-4C74-B798-0B8ED2BECA6D}</Project>
-      <Name>Acr.XamForms.Mobile.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.Mobile\Acr.XamForms.Mobile.csproj">
-      <Project>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</Project>
-      <Name>Acr.XamForms.Mobile</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Acr.XamForms.SignaturePad.Droid\Acr.XamForms.SignaturePad.Droid.csproj">
       <Project>{1D5482F6-AA89-422C-9E34-88A8A1AD8AB6}</Project>
       <Name>Acr.XamForms.SignaturePad.Droid</Name>
@@ -121,14 +105,6 @@
     <ProjectReference Include="..\..\Acr.XamForms.SignaturePad\Acr.XamForms.SignaturePad.csproj">
       <Project>{B2AF970D-D640-451C-95AF-92AF531B8C1E}</Project>
       <Name>Acr.XamForms.SignaturePad</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.UserDialogs.Droid\Acr.XamForms.UserDialogs.Droid.csproj">
-      <Project>{F68A14AB-0965-4582-9399-F22F5C4CEB15}</Project>
-      <Name>Acr.XamForms.UserDialogs.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.UserDialogs\Acr.XamForms.UserDialogs.csproj">
-      <Project>{FB69B463-0DD5-49D2-AFED-6E3A31EB37A1}</Project>
-      <Name>Acr.XamForms.UserDialogs</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Acr.XamForms\Acr.XamForms.csproj">
       <Project>{85E3C63B-A17E-46EF-87CE-9A8E58FEDE4D}</Project>

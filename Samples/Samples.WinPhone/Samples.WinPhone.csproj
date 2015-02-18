@@ -153,22 +153,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Acr.XamForms.BarCodeScanner.WindowsPhone\Acr.XamForms.BarCodeScanner.WindowsPhone.csproj">
-      <Project>{dc51e5ac-4dfb-449e-95e3-a471c0ebb53c}</Project>
-      <Name>Acr.XamForms.BarCodeScanner.WindowsPhone</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.BarCodeScanner\Acr.XamForms.BarCodeScanner.csproj">
-      <Project>{1ed7e825-98ed-4740-8dd7-96e4aa3f1128}</Project>
-      <Name>Acr.XamForms.BarCodeScanner</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.Mobile.WindowsPhone\Acr.XamForms.Mobile.WindowsPhone.csproj">
-      <Project>{d7098843-29d9-4aa9-9b11-c2d938e1ae89}</Project>
-      <Name>Acr.XamForms.Mobile.WindowsPhone</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.Mobile\Acr.XamForms.Mobile.csproj">
-      <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
-      <Name>Acr.XamForms.Mobile</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Acr.XamForms.SignaturePad.WindowsPhone\Acr.XamForms.SignaturePad.WindowsPhone.csproj">
       <Project>{fb73d461-d197-42a2-8928-086333277e54}</Project>
       <Name>Acr.XamForms.SignaturePad.WindowsPhone</Name>
@@ -176,14 +160,6 @@
     <ProjectReference Include="..\..\Acr.XamForms.SignaturePad\Acr.XamForms.SignaturePad.csproj">
       <Project>{b2af970d-d640-451c-95af-92af531b8c1e}</Project>
       <Name>Acr.XamForms.SignaturePad</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.UserDialogs.WindowsPhone\Acr.XamForms.UserDialogs.WindowsPhone.csproj">
-      <Project>{732d3a68-83f1-4cc0-97cb-ab5095998d70}</Project>
-      <Name>Acr.XamForms.UserDialogs.WindowsPhone</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Acr.XamForms.UserDialogs\Acr.XamForms.UserDialogs.csproj">
-      <Project>{fb69b463-0dd5-49d2-afed-6e3a31eb37a1}</Project>
-      <Name>Acr.XamForms.UserDialogs</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Acr.XamForms\Acr.XamForms.csproj">
       <Project>{85e3c63b-a17e-46ef-87ce-9a8e58fede4d}</Project>
