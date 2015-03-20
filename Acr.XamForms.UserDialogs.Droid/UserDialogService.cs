@@ -74,8 +74,10 @@ namespace Acr.XamForms.UserDialogs.Droid {
             var txtPass = new EditText(context) {
                 Hint = config.PasswordPlaceholder ?? "*",
                 TransformationMethod = PasswordTransformationMethod.Instance,
-				InputType = InputTypes.ClassText | InputTypes.TextVariationPassword
-            };
+				InputType = (config.isPassword ? InputTypes.TextVariationPassword : InputTypes.TextVariationVisiblePassword)
+					| (config.isPhone ? InputTypes.ClassPhone : InputTypes.ClassText)
+			};
+
 			txtPass.SetMaxLines(1);
 
             var layout = new LinearLayout(context) {
@@ -109,8 +111,11 @@ namespace Acr.XamForms.UserDialogs.Droid {
                 txt.SetMaxLines(1);
 				if (config.IsSecure) {
                     txt.TransformationMethod = PasswordTransformationMethod.Instance;
-					txt.InputType = InputTypes.ClassText | InputTypes.TextVariationPassword;
+					txt.InputType = config.IsPhone ? InputTypes.ClassPhone : InputTypes.ClassText | InputTypes.TextVariationPassword;
 				}
+				else
+					txt.InputType = config.IsPhone ? InputTypes.ClassPhone : InputTypes.ClassText;
+				
                 new AlertDialog
                     .Builder(Utils.GetActivityContext())
                     .SetMessage(config.Message)

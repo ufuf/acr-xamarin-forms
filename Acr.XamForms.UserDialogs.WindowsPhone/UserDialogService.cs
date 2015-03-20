@@ -90,8 +90,8 @@ namespace Acr.XamForms.UserDialogs.WindowsPhone {
                 Hint = config.LoginPlaceholder,
                 Text = config.LoginValue ?? String.Empty
             };
-            var txtPass = new PasswordBox();
-            var stack = new StackPanel();
+			var txtPass = config.password ? new PasswordBox() : new PhoneTextBox();
+			var stack = new StackPanel();
             stack.Children.Add(txtUser);
             stack.Children.Add(txtPass);
             prompt.Content = stack;

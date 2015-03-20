@@ -13,7 +13,8 @@ namespace Acr.XamForms.UserDialogs {
         public string OkText { get; set; }
         public string CancelText { get; set; }
         public string Placeholder { get; set; }
-        public bool IsSecure { get; set; }
+		public bool IsSecure { get; set; }
+		public bool IsPhone { get; set; }
 
 
         public PromptConfig() {

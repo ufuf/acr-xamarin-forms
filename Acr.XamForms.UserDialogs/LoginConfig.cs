@@ -12,7 +12,9 @@ namespace Acr.XamForms.UserDialogs {
         public string LoginValue { get; set; }
         public string LoginPlaceholder { get; set; }
         public string PasswordPlaceholder { get; set; }
-        public Action<LoginResult> OnResult { get; set; }
+		public Action<LoginResult> OnResult { get; set; }
+		public bool isPassword { get; set; }
+		public bool isPhone { get; set; }
 
 
         public LoginConfig() {
@@ -20,7 +22,9 @@ namespace Acr.XamForms.UserDialogs {
             this.OkText = "OK";
             this.CancelText = "Cancel";
             this.LoginPlaceholder = "User Name";
-            this.PasswordPlaceholder = "Password";
+			this.PasswordPlaceholder = "Password";
+			this.isPassword = true;
+			this.isPhone = false;
         }
     }
 }

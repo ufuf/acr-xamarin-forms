@@ -101,8 +101,9 @@ namespace Acr.XamForms.UserDialogs.iOS {
                     dlg.AddTextField(x => {
                         txtPass = x;
                         x.Placeholder = config.PasswordPlaceholder;
-                        x.SecureTextEntry = true;
-                    });
+						x.SecureTextEntry = config.isPassword;
+						x.KeyboardType = config.isPhone ? UIKeyboardType.PhonePad : UIKeyboardType.Default;
+					});
                     Present(dlg);
                 }
                 else {
@@ -155,7 +156,8 @@ namespace Acr.XamForms.UserDialogs.iOS {
                         x.SecureTextEntry = config.IsSecure;
                         x.Placeholder = config.Placeholder ?? String.Empty;
                         txt = x;
-                    });
+						x.KeyboardType = config.IsPhone ? UIKeyboardType.PhonePad : UIKeyboardType.Default;
+					});
                     Present(dlg);
                 }
                 else {
